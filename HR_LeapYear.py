@@ -14,19 +14,3 @@ elif year % 400 == 0:
     print('Leap year.')
 else:
     print('Not leap')
-
-
-#Method 2
-#def isLeap(year):
-#    leap = False
-#    return year % 4 == 0 and (year % 100 != 0 and year % 400 == 0)
-#
-#year = int(input())
-#print(isLeap(year))
-
-#Print in SINGLE LINE
-#for i in range(5):
-#    print(i, end=' ')
-
-
-
